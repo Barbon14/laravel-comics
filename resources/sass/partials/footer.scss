@@ -1,0 +1,27 @@
+footer {
+    // background-image: url(../assets/img/footer-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 380px;
+    // debug
+    background-color: aquamarine;
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+
+        .footer_lists {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            padding: 30px 0;
+        }
+        
+        img {
+            width: 45%;
+            aspect-ratio: 1;
+            object-fit: cover;
+            object-position: center;
+        }
+    }
+}
