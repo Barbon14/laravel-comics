@@ -7,10 +7,10 @@
     <title>Document</title>
 </head>
 <body>
-    @extends('header')
+    @include('layouts.header')
 
     @yield('content')
 
-    @extends('footer')
+    @include('layouts.footer')
 </body>
 </html>
