@@ -1,3 +1,23 @@
 <footer>
-    <h3>Goodbye footer</h3>
+    <div class="container">
+        <div class="footer_lists">
+
+        </div>
+        {{-- <img src="../assets/img/dc-logo-bg.png" alt=""> --}}
+    </div>
+
+    <section>
+        <div class="container">
+            <a class="sign-up" href="#">
+                SIGN-UP NOW!
+            </a>
+            <ul>
+                <li>
+                    <a href="#">
+                        
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </section>
 </footer>
