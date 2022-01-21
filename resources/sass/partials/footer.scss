@@ -24,4 +24,28 @@ footer {
             object-position: center;
         }
     }
+    
+    section {
+        background-color: #303030;
+        
+        .container {
+            padding: 20px 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        
+            .sign-up {
+                display: inline-block;
+                border: 2px solid #3183fc;
+                color: white;
+                padding: 15px;
+                text-decoration: none;
+            }
+    
+            ul {
+                list-style: none;
+                display: flex;
+            }
+        }
+    }
 }
