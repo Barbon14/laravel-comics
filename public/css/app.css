@@ -33,6 +33,37 @@ header ul li a.active {
   color: #3183fc;
 }
 
+#cards {
+  background-color: #1c1c1c;
+  padding-bottom: 20px;
+  margin-top: 50px;
+}
+
+#cards h2 {
+  color: white;
+  background-color: #3183fc;
+  padding: 10px 30px;
+  transform: translate(0, -50%);
+  display: inline-block;
+}
+
+#cards .cards_container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#cards h5 {
+  text-align: center;
+}
+
+#cards h5 a {
+  padding: 10px 30px;
+  background-color: #3183fc;
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+}
+
 footer {
   background-repeat: no-repeat;
   background-size: cover;
