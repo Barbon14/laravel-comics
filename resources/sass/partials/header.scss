@@ -1,7 +1,5 @@
 header {
   padding: 20px 0;
-  // debug
-  background-color: brown;
 
   .container{
     display: flex;
@@ -19,6 +17,7 @@ header {
       a {
         text-decoration: none;
         color: #464646;
+        text-transform: uppercase;
 
         &.active{
           color: #3183fc;
