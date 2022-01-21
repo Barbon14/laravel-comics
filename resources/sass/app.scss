@@ -5,6 +5,16 @@
     margin: 0;
 }
 
+body {
+    font-family: sans-serif;
+}
+
+.container {
+  width: 70%;
+  margin: 0 auto;
+  height: 100%;
+}
+
 @import 'partials/header.scss';
 
 @import 'partials/cards.scss';

@@ -4,6 +4,16 @@
   margin: 0;
 }
 
+body {
+  font-family: sans-serif;
+}
+
+.container {
+  width: 70%;
+  margin: 0 auto;
+  height: 100%;
+}
+
 header {
   padding: 20px 0;
   background-color: brown;
