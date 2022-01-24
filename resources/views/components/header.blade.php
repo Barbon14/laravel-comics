@@ -1,6 +1,6 @@
 <header>
     <div class="container">
-        <img src="{{ asset('img/dc-logo.png') }}" alt="logo DC comics">
+        <img src="{{ asset('/storage/assets/dc-logo.png') }}" alt="logo DC comics">
         <ul>
             <li>
                 <a href="link.href" class="active">

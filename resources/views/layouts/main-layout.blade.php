@@ -8,10 +8,10 @@
     <title>Document</title>
 </head>
 <body>
-    @include('partials.header')
+    @include('components.header')
 
     @yield('content')
 
-    @include('partials.footer')
+    @include('components.footer')
 </body>
 </html>
