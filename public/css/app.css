@@ -75,10 +75,10 @@ header ul li a.active {
 }
 
 footer {
+  background-image: url("/storage/assets/footer-bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   height: 380px;
-  background-color: aquamarine;
 }
 
 footer .container {
