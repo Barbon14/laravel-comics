@@ -83,6 +83,8 @@ class HomeController extends Controller
                 ],
             ];
 
-        return view('pages.home', compact('comics'));
+        $footerLists = config('footerData.lists');
+
+        return view('pages.home', compact('comics', 'footerLists'));
     }
 }

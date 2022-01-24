@@ -9,6 +9,8 @@ class TestController extends Controller
     public function test()
     {
 
-        return view('pages.test');
+        $footerLists = config('footerData.lists');
+
+        return view('pages.test', compact('footerLists'));
     }
 }
