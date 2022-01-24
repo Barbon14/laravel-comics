@@ -3,7 +3,7 @@
         <div class="footer_lists">
 
         </div>
-        {{-- <img src="../assets/img/dc-logo-bg.png" alt=""> --}}
+        <img src="{{ asset('/storage/assets/dc-logo-bg.png')}}" alt="">
     </div>
 
     <section>
