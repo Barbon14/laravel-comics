@@ -2,5 +2,5 @@
 
 @section('content')
     <h1>Hello world Test</h1>
-    <a href="/">HOME</a>
+    <a href="{{ route('home') }}">HOME</a>
 @endsection
