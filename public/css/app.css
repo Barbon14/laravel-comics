@@ -43,6 +43,12 @@ header ul li a.active {
   color: #3183fc;
 }
 
+#jumbotron {
+  background-image: url("/storage/assets/jumbotron.jpg");
+  height: 400px;
+  background-size: cover;
+}
+
 #cards {
   background-color: #1c1c1c;
   padding-bottom: 20px;
