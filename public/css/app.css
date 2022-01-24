@@ -80,6 +80,25 @@ header ul li a.active {
   display: inline-block;
 }
 
+#cards .card {
+  width: 16.6666666667%;
+  padding: 20px;
+}
+
+#cards .card img {
+  width: 100%;
+  aspect-ratio: 1;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top;
+     object-position: top;
+}
+
+#cards .card h4 {
+  margin: 10px 0;
+  color: white;
+}
+
 footer {
   background-image: url("/storage/assets/footer-bg.jpg");
   background-repeat: no-repeat;
