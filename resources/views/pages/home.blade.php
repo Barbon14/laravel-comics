@@ -1,8 +1,6 @@
 @extends('layouts.main-layout')
 
 @section('content')
-    <h1>Hello world Home</h1>
-    <a href="{{ route('test') }}">TEST</a>
     <section id="cards">
         <div class="container">
             <h2>
