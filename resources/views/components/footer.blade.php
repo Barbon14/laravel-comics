@@ -1,6 +1,9 @@
 <footer>
     <div class="container">
         <div class="footer_lists">
+
+            <?php $footerLists = config('footerData.lists') ?>
+            
             @foreach ($footerLists as $list)
                 <div>
                     <h4>
